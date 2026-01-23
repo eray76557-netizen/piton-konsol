@@ -1,0 +1,11 @@
+getir random
+
+yaz("1 ile 10 arasında bir sayı tuttum!")
+rastgele_sayi = rastgele(1, 10)
+
+tahmin = tamsayi(girdi("Tahminin nedir? "))
+
+eger tahmin == rastgele_sayi:
+    yaz("Tebrikler, bildin!")
+degilse:
+    yaz("Olmadı, sayı " + metin(rastgele_sayi) + " idi.")
